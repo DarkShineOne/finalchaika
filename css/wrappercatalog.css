@@ -1,0 +1,70 @@
+.wrappercatalog {
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    grid-gap: 10px;
+    grid-auto-rows: minmax(60px, auto);
+  }
+.header_catalogtext1{ /* Главная */
+
+    position: relative;
+    width: auto;
+    padding-bottom: 5%;
+    left: 5vw;
+    top: 40px;
+  
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1vw;
+    line-height: 27px;
+  
+    color: #000000;
+  }
+  
+.linecatalog{
+    /* Line 19 */
+  position: relative;
+  width: 85%;
+  height: 0px;
+  left: 5vw;
+  margin-bottom: 2vw;
+  
+  /* top: 377px; */
+  
+  border: 1px solid #0A3F76;
+  }
+body{
+  margin: 0px;
+  overflow-x: hidden;
+  line-height: 1;
+}
+.footer-sites{
+  padding-top: 4vw;
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local(''),
+       url('../fonts/lato-v23-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/lato-v23-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* noto-sans-300 - cyrillic */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local(''),
+       url('../fonts/noto-sans-v27-cyrillic-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/noto-sans-v27-cyrillic-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* noto-sans-500 - cyrillic */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: local(''),
+       url('../fonts/noto-sans-v27-cyrillic-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/noto-sans-v27-cyrillic-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}

@@ -1,0 +1,126 @@
+.cons_table{
+    width: 95%;
+    height: auto;
+    margin: auto;
+    border: 0px solid #399;
+}
+
+.cons_td1{
+    border: 0px solid #333; /* Граница вокруг ячеек */
+    width: 50%;
+    height: auto;
+    text-align: center;
+    vertical-align: middle;
+}
+.cons_td2{
+    border: 0px solid #333; /* Граница вокруг ячеек */
+    width: 50%;
+    height: auto;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.cons_label{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-size: 1vw;
+    margin: 2% 0 1% 2%;
+}
+
+.cons_canvas{
+    width: 80%;
+    height: auto;
+}
+
+.cons_button2{
+    background: #FFFFFF;
+    border: 1px solid #0A3F76;
+    height: auto;
+    padding: 2% 0;
+    width: 36%;
+    margin: 2%;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-size: 1vw
+}
+
+.cons_button2:hover, .cons_button2:active {
+    background: #F0F0F0;
+}
+
+.cons_button4{
+    background: #FFFFFF;
+    border: 1px solid #0A3F76;
+    height: auto;
+    padding: 2% 0;
+    width: 17.3%;
+    margin: 1% 0 2% 2%;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-size: 1vw
+}
+
+.cons_button4:hover, .cons_button4:active {
+    background: #F0F0F0;
+}
+
+.cons_button3{
+    background: #FFFFFF;
+    border: 1px solid #0A3F76;
+    height: auto;
+    padding: 2% 0;
+    width: 7%;
+    margin: 1% 0 2% 2%;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-size: 1vw
+}
+
+.cons_button3img{
+    background: #FFFFFF;
+    border: 0;
+    height: auto;
+    width: 13%;
+    margin: 1% 0 2% 2%;
+}
+.cons_button3img  img{
+    width: 100%;
+    height: auto;
+    display: block;
+     
+}
+.cons_button3  img{
+    width: 100%;
+    height: auto;
+    display: block;
+     
+}
+
+.cons_button3:hover, .cons_button3:active  {
+    background: #F0F0F0;
+}
+
+.cons_button2.is-active  {
+    background: #f0f0f0;
+}
+.cons_button3.is-active  {
+    background: #f0f0f0;
+}
+.cons_button4.is-active  {
+    background: #f0f0f0;
+}
+.cons_select{
+    background: #FFFFFF;
+    border: 1px solid #0A3F76;
+    height: auto;
+    padding: 2% 0;
+    width: 76.8%;
+    margin: 2%;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-size: 1vw
+}
+
+.cons_select:hover {
+    background: #F0F0F0;
+}

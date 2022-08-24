@@ -1,0 +1,10 @@
+.wrapperfooter {
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: 1fr 0.5fr 1fr;
+    position: relative;
+    width: 100%;
+    background: #0A3F76;
+    height: fit-content;
+    margin: -1px;
+  }

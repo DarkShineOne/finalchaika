@@ -1,0 +1,255 @@
+
+/* КАРТОЧКИ */
+
+.cards__greed{
+    display: grid;
+    grid-gap: 1.5vw;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: relative;
+    width: 100%;
+    padding-left: 3vw;
+    padding-top: 4vw;
+}
+
+.blur{
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    display: flex;
+    flex-direction: column;
+    width: 28vw;
+    height: 28vw;
+    min-height: 100%;
+    position: relative;
+    
+}
+
+.text_main{
+    width: 100%;
+    padding-left: 5vw;
+    padding-top: 8vh;
+    position: relative;
+    justify-self: left;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-size: 1.66vw;
+    line-height: 115%;
+    color: #F0F0F0;
+}
+
+.text_dop{
+    padding-top: 1vw;
+    padding-left: 5vw;
+    width: 100%;
+    position: relative;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1vw;
+    line-height: 115%;
+    color: #F0F0F0;
+}
+
+.text_op {
+    width: 75%;
+    padding-top: 3.5vw;
+    padding-left: 5vw;
+    position: relative;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1vw;
+    line-height: 115%;
+    color: #F0F0F0;
+}
+
+.knopka {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 6vw;
+    height: 3vh;
+    position: relative;
+    background: rgba(240, 240, 240, 0.8);
+    border-radius: 2px;
+    cursor: pointer;
+    user-select: none;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 4.6vh;
+    margin-left: 5vw;
+}
+
+.knopka:active {
+    background: #F0F0F0;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #0A3F76; 
+}
+
+.choose {
+    
+    position: relative;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1vw;
+    line-height: 115%;
+    color: #0A3F76;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.ddd{
+    margin-top: 3.5vw;
+    width: 5vw;
+    height: 5vw;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding-left: 11vw; */
+}
+
+#firstblur{
+    background-image: url("./img/katalog.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+#secondblur{
+    background-image: url("./img/construct.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+#thirdblur{
+    background-image: url("./img/model.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+/* О БРЕНДЕ */
+
+.rectangle {
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    height: 7vw;
+    left: 0px;
+    top: 0px;
+    background: #F0F0F0;
+}
+
+.about {
+    position: relative;
+    margin-bottom: 1vw;
+    padding-left: 6vw;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.666vw;
+    color: #121212;
+}
+
+.container_text{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.1vw;
+}
+
+.lvl1 {
+    padding-top: 5vw;
+    position: relative;
+    width: fit-content;
+    padding-left: 22.14vw;
+    padding-right: 22.14vw;
+    width: 100%;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+    color: #121212;
+}
+
+.lvl2 {
+    padding-top: 1vw;
+    position: relative;
+    width: fit-content;
+    padding-left: 22.14vw;
+    padding-right: 22.14vw;
+    width: 100%;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 300;
+    line-height: 160%;
+    color: #121212;
+}
+
+.lvl3 {
+    padding-top: 1vw;
+    position: relative;
+    width: fit-content;
+    padding-left: 22.14vw;
+    padding-right: 22.14vw;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+    color: #121212;
+    width: 100%;
+}
+
+.lvl4 {
+    padding-top: 1vw;
+    position: relative;
+    width: fit-content;
+    padding-left: 22.14vw;
+    padding-right: 22.14vw;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 300;
+    line-height: 160%;
+    color: #121212;
+    width: 100%;
+}
+
+.im11 {
+    position: relative;
+    width: 33vw;
+    height: auto;
+    max-width: 33%;
+    margin-right: 30px;    
+}
+
+.im12 {
+    position: relative;
+    width: 63vw;
+    max-width: 63%;
+    height: fit-content;
+
+}
+
+.pictures{
+    padding-bottom: 5vw;
+    padding-top: 5vw;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+#wave1{
+    position: absolute;
+    right: 0;
+    width: 15vw;
+    height: 20vw;
+}
+
+#wave2{
+    position: absolute;
+    left: 0;
+    margin-top: 15vw;
+    width: 10vw;
+    height: 10vw;
+}

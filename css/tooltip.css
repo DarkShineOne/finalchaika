@@ -1,0 +1,76 @@
+
+.tooltip{
+    position: relative;
+    font-size: 1vw;
+    font-family: 'Noto Sans';
+	  font-style: normal;
+    display: block;
+    text-align: center;
+}
+
+.tooltip .tooltiptext {
+    font-size: 1vw;
+    visibility: hidden;
+    width: max-content;
+    background-color: black;
+    color: #fff;
+    padding: 0.3vw 0;
+    border-radius: 5px;
+    position: absolute;
+    display: inline;
+    z-index: 1;
+    top: 150%;
+    margin-left: -2vw;
+  }
+  /* Нужно фиксить их как то или уже юзать js для новых, потому что выравнивания я не вижу */
+/* 
+   .tooltip .tooltiptext::after {
+    transform: scale(1.1);
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    margin-left: -4.3vw;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
+  }
+   */
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+  .tooltip .tooltiptext2 {
+    font-size: 1vw;
+    visibility: hidden;
+    width: max-content;
+    background-color: black;
+    color: #fff;
+    padding: 0.3vw 0;
+    border-radius: 5px;
+    position: absolute;
+    display: inline;
+    z-index: 1;
+    top: 150%;
+    margin-left: -6.5vw;
+  }
+  .tooltip:hover .tooltiptext2 {
+    visibility: visible;
+  }
+
+  .tooltip .tooltiptext3 {
+    font-size: 1vw;
+    visibility: hidden;
+    width: max-content;
+    background-color: black;
+    color: #fff;
+    padding: 0.3vw 0;
+    border-radius: 5px;
+    position: absolute;
+    display: inline;
+    z-index: 1;
+    top: 150%;
+    margin-left: -3vw;
+  }
+  .tooltip:hover .tooltiptext3 {
+    visibility: visible;
+  }

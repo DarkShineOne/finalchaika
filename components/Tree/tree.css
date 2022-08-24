@@ -1,0 +1,62 @@
+.tree{
+    display: block;
+    list-style: none;
+    list-style-type: " ";
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 10px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+    /* padding: 40px; */
+    padding-left: 5%;
+    margin-right: 0;
+    margin-left: 5vw;
+    margin-top: 0px;
+    width: 200px;
+    position: sticky;
+}
+.ul{
+    margin: 0;
+    margin-right: 0;
+    justify-items: right;
+}
+.tree_ol{
+    font-size: 20px;
+    list-style-type: " ";
+    padding-left: 50px;
+    padding: 10px;
+    font-family: 'Noto Sans';
+	font-style: normal;
+}
+.main___class{
+    margin-right: 100px;
+    font-size: 1vw;
+    /* font-size: 20px; */
+    font-family: 'Noto Sans';
+	font-style: light;
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+    padding-bottom: 10%;
+}
+
+
+.subclass___cloth{
+    font-size: 1vw;
+    /* font-size: 20px; */
+    padding-bottom: 10%;
+    margin-right: 100px;
+    margin-left: 30px;
+    width: max-content;
+    font-family: 'Noto Sans';
+	font-style: light;
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+}
+
+#treeblock{
+    display: block;
+    grid-row: 1 / 3;
+
+}

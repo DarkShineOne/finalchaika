@@ -1,0 +1,166 @@
+/*!
+* chiefSlider
+*   site: https://itchief.ru/javascript/slider
+*   github: https://github.com/itchief/ui-components
+*
+* Copyright 2018-2021 Alexander Maltsev
+* Licensed under MIT (https://github.com/itchief/ui-components/blob/master/LICENSE)
+*/
+
+.slider {
+    position: relative;
+    margin: 0;
+  }
+  
+  .slider__container {
+    max-width: 22vw;
+    margin: 0 auto;
+  }
+  
+  .slider__wrapper {
+    overflow: hidden; 
+  }
+  
+  .slider__items {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .slider_disable-transition {
+    transition: none;
+  }
+  
+  .slider__item {
+    flex: 0 0 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+  }
+  
+  /* кнопки влево и вправо */
+  
+  .slider__control {
+
+    position: absolute;
+    top: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2vw;
+    width: 6vw;
+    height: 6vw;
+    color: #fff;
+    text-align: center;
+    border: none;
+    border-radius: 30vw;
+    border-color: #0A3F76;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+  .slider__control_hide {
+    display: none;
+  }
+  
+  .slider__control[data-slide="prev"] {
+    background-image: url("./img/slider_left.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 7vw;
+    left: 0;
+  }
+  
+  .slider__control[data-slide="next"] {
+    background-image: url("./img/slider_right.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 7vw;
+    right: 0;
+  }
+  
+  .slider__control:hover,
+  .slider__control:focus {
+    color: #fff;
+    text-decoration: none;
+    outline: 0;
+  }
+  
+  .slider__control::before {
+    content: "";
+    display: inline-block;
+    width: 2vw;
+    height: 2vw;
+    background: transparent no-repeat center center;
+    background-size: 100% 100%;
+    color: #0A3F76;
+  }
+  
+  .slider__control[data-slide="prev"]::before {
+  }
+  
+  .slider__control[data-slide="next"]::before {
+  }
+  
+  /* индикаторы */
+  
+  .slider__indicators {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 15;
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    margin-right: 15%;
+    margin-bottom: 0;
+    margin-left: 15%;
+    padding-left: 0;
+    list-style: none;
+  }
+  
+  .slider__indicators li {
+    flex: 0 1 auto;
+    box-sizing: content-box;
+    width: 30px;
+    height: 5px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    background-color: rgb(255 255 255 / 50%);
+    background-clip: padding-box;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    cursor: pointer;
+  }
+  
+  .slider__indicators li.active {
+    background-color: rgb(255 255 255 / 90%);
+  }
+
+  #slider___photo{
+    width: 23vw;
+    height: 35vw;
+    padding: 2vw;
+  }
+
+  .rectangle2 {
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    height: 8vw;
+    left: 0px;
+    top: 0px;
+    background: #F0F0F0;
+}
+    .about2 {
+        position: relative;
+        margin-bottom: 0.8vw;
+        padding-left: 6vw;
+        font-family: 'Noto Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.666vw;
+        color: #121212;
+}

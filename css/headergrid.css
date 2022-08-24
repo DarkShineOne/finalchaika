@@ -1,0 +1,38 @@
+.headergrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0vw;
+    position: relative;
+    width: 100%;
+  }
+
+.header-left{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-gap: 1vw;
+    padding-top: 4vw;
+    padding-left: 6vw;
+    height: fit-content;
+    width: fit-content;
+}
+
+.header-center{
+    justify-content: center;
+    justify-self: center;
+    height: fit-content;
+    width: fit-content;
+}
+
+
+.header_logo_img{
+    width: 20vw;
+    height: 12vh;
+    margin-top: 2vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header_banner{
+    width: 100%;
+}
+

@@ -1,0 +1,115 @@
+.pazzle {
+    padding-bottom: 5vw;
+    padding-top: 5vw;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: fit-content;
+    align-self: center;
+    margin: auto;
+}
+
+.plate {
+    align-content: center;
+    display: flex;
+    justify-self: flex-end;
+    margin-right: 2.5vw;
+    margin-left: 2.5vw;
+    width: 80%;
+    height: auto;
+}
+
+/*
+.imgcon2{
+    display: inline-block;
+    background: url("../img/тигр.png") no-repeat 50% 50%;
+}
+
+a.imgcon2:hover{
+    background: url(../img/тигр2.png) no-repeat 50% 50%;
+}
+*/
+
+
+
+.imgcon1{
+    display: block;
+    width: 100%;
+    height: auto;
+    background-image: url(../img/svg/capusta.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.plate:hover .imgcon1 img{
+    opacity: 0%;
+    width: 100%;
+    height: auto;
+}
+
+.imgcon1 img{
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: opacity 0.5s linear;
+}
+
+
+.imgcon2{
+    display: block;
+    width: 100%;
+    height: auto;
+    background-image: url(../img/svg/tiger.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.plate:hover .imgcon2 img{
+    opacity: 0%;
+
+}
+
+.imgcon2 img{
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: opacity 0.5s linear;
+}
+
+
+.imgcon3{
+    display: block;
+    width: 100%;
+    height: auto;
+    background-image: url(../img/svg/chaika.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.plate:hover .imgcon3 img{
+    opacity: 0%;
+
+}
+
+.imgcon3 img{
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: opacity 0.5s linear;
+}
+
+#plate{
+    width: auto;
+    height: auto;
+    transform: scale();
+}
+
+@media screen and (max-width: 640px) {
+}
+
+#wave1{
+    position: absolute;
+    right: 0;
+    width: 20vw;
+    height: 20vw;
+}

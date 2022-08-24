@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goranskaya L</title>
+    <!-- PC ADAPTIVE -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/wrapperFooter.css">
+    <link rel="stylesheet" href="./css/puzzle.css">
+    <link rel="stylesheet" href="./css/headergrid.css">
+    <link rel="stylesheet" href="./css/tooltip.css">
+    <link rel="stylesheet" href="./css/main.css">
+
+    <link rel="stylesheet" href="./css/construct.css">
+
+    <!-- THREE JS-->
+    <script type="importmap">
+		{
+			"imports": {
+				"three": "./js/THREE/build/three.module.js"
+			}
+		}
+	</script>
+    <!-- MOBILE ADAPTIVE -->
+
+    
+</head>
+<body>
+
+ <!-- making main... -->
+ <div class = "headergrid">
+    <div class= "header-left">
+        <div class="tooltip">
+            <span class ="tooltiptext">+7 914 706 4768</span>
+            <img src="./img/svg/phone.svg" class="social_logo"> 
+        </div>
+        <div class="tooltip">
+            <span class ="tooltiptext2">ПН-ПТ 11:00–19:00<br>
+                СБ-ВС по предварительному звонку</span>
+            <img src="./img/svg/clock.svg" class="social_logo"> 
+        </div>
+        <div class="tooltip">
+            <span class ="tooltiptext3">Goranskay_L@mail.ru</span>
+            <img src="./img/svg/mail.svg" class="social_logo">
+        </div>
+    </div>
+    <div class= "header-center">
+        <a href="/" class="header_logo-link">
+            <img src="./img/svg/logo.svg" class="header_logo_img">
+        </a>
+    </div>
+    <div class= "header-right"></div>
+</div>
+
+<!-- stikee menu -->
+<main class="main">
+    <div class="menu___wrapper">
+        <nav class="menu___nav">
+            <ui class="menu___list">
+                <li class="menu___item">
+                    <a href="/#top" class="menu___link">Главная</a>
+                </li>
+                <li class="menu___item">
+                    <a href="/catalogPage.html" class="menu___link">Каталог</a>
+                </li>
+                <li class="menu___item">
+                    <a href="/#brand" class="menu___link">О бренде</a>
+                </li>
+                <li class="menu___item">
+                    <a href="/#puzzle" class="menu___link">Коллекции</a>
+                </li>
+                <li class="menu___item">
+                    <a href="/construct.html" class="menu___link">Конструктор</a>
+                </li>
+                <li class="menu___item">
+                    <a href="#footer" class="menu___link">Контакты</a>
+                </li>
+                <li class="menu___item">
+                    <a href="#!" class="menu___link">Отзывы</a>
+                </li>
+            </ui>
+        </nav>
+    </div>
+<!-- никита сделал хуйню -->
+
+<table class="cons_table">
+    <td class="cons_td1">
+        <canvas class="cons_canvas" id = "canvas"></canvas>
+        <script type="module" src="js/script.js"></script>
+    </td>
+    <td class="cons_td2">
+        <div class="cons_label">
+            Цвет
+        </div>
+        <select class="cons_select" id="color_picker">
+            <option value="0" >Сине-белый</option>
+            <option value="1" >Красно-белый</option>
+            <option value="2">Черно-белый</option>
+        </select>
+
+        <div class="cons_label">
+            Размер
+        </div>
+        <button class="cons_button3" id="size_0">s</button>
+        <button class="cons_button3" id="size_1">m</button>
+        <button class="cons_button3" id="size_2">l</button>
+
+        <div class="cons_label">
+            Силуэт
+         </div>
+         <button class="cons_button2" id="tshirt_0">прямой</button>
+         <button class="cons_button2" id="tshirt_1">полуприлегающий</button>
+ 
+        <div class="cons_label">
+           Вырез горловины
+        </div>
+        <button class="cons_button2" id="collar_0">круглый</button>
+        <button class="cons_button2" id="collar_1">v-образный</button>
+
+        <div class="cons_label">
+            Рукав
+         </div>
+         <button class="cons_button4" id="sleeves_0">реглан</button>
+         <button class="cons_button4" id="sleeves_1">рубашечный</button>
+         <button class="cons_button4" id="sleeves_2">длинный</button>
+         <button class="cons_button4" id="sleeves_3">короткий</button>
+
+        <div class="cons_label">
+            Низ изделия
+        </div>
+        <button class="cons_button2" id="bottom_0">прямой</button>
+        <button class="cons_button2" id="bottom_1">фигурный</button>
+
+        <div class="cons_label">
+            Вышивка-аппликация
+        </div>
+        <select class="cons_select" id="print_picker">
+            <option value="0">Чайка</option>
+            <option value="1">Тигр</option>
+            <option value="2">Морская капуста</option>
+        </select>
+        <br>
+        <button class="cons_button3img" id="print_color0"><img src="./assets/app_dark.png"></img></button>
+        <button class="cons_button3img" id="print_color1"><img src="./assets/app_blue.png"></img></button>
+        <button class="cons_button3img" id="print_color2"><img src="./assets/app_red.png" id="thrbutton"></img></button>
+        
+    </td>
+</table>
+
+
+
+
+<ul class="wrapperfooter">
+    <div id=footer class="footer___left">
+        <a href="/" class="btmfooter-link">
+            <first-left id="btmfooter">Главная</first-left>
+        </a>
+        <a href="/#puzzle" class="btmfooter-link">
+            <first-right id="btmfooter">Коллекции</first-right>
+        </a>
+       <a href="/catalogPage.html" class="btmfooter-link">
+            <second-left id="btmfooter">Каталог</second-left>
+        </a>    
+       <a href="/construct.html" class="btmfooter-link">
+            <second-right id="btmfooter">Конструктор</second-right>
+        </a>
+       <a href="/#brand" class="btmfooter-link">
+            <third-left id="btmfooter">О бренде</third-left>
+        </a>
+       <a href="#!" class="btmfooter-link">
+            <third-right id="btmfooter">Отзывы</third-right>
+        </a>
+    
+    </div>
+    <div class="footer_logo">
+        <a href="/" class="footer___logo-link">   
+            <img src="./img/footer___logo.jpg" class="footer_logo_img">
+        </a>
+    </div>
+    <div class="footer___right">
+        <p class = "footer___p">ВЛАДИВОСТОК</p>
+        <p class = "footer___p">+7 914 706 4768</p>
+        <p class = "footer___p">Goranskay_L@mail.ru</p>
+        <p class = "footer___p">Студия:</p>
+        <p class = "footer___p">Владивосток, <br>
+            пр-т Красного Знамени, 51А офис 301</p>
+        <div class="footer-sites">
+            <a href="#!">
+                <img src="./img/svg/vk___logo.svg" class="social_logo"> 
+            </a>
+            <a href="#!">
+                <img src="./img/svg/telegram___logo.svg" class="social_logo"> 
+            </a>
+            <a href="#!">
+                <img src="./img/svg/whatsapp___logo.svg" class="social_logo"> 
+            </a>
+        </div>
+    </div>
+</ul>
+<div class ="comms">
+    <p>
+        © 2022 Любое использование контента без письменного согласия правообладателя запрещено
+    </p>
+</div>
+</body>
+</html>
