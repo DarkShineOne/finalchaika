@@ -5,7 +5,7 @@ const CATALOG = [
         ClassProd: 'cloth',
         SubClassProd: 'id_0',
         name: 'Тельняшка с росписью акрилом и вышивкой-аппликацией «Устрица»',
-        img: 'img/catalogIMG/vest/DSC_1078.jpg',
+        img: 'img/vest/DSC_1078.jpg',
         price: 4224,
     },
     {
@@ -13,7 +13,7 @@ const CATALOG = [
         ClassProd: 'cloth',
         SubClassProd: 'id_0',
         name: 'Тельняшка с вышивкой-аппликацией «Чайка»',
-        img: 'img/catalogIMG/vest/DSC_1159.jpg',
+        img: 'img/vest/DSC_1159.jpg',
         price: 50,
     },
     {
@@ -21,7 +21,7 @@ const CATALOG = [
         ClassProd: 'cloth',
         SubClassProd: 'id_0',
         name: 'Тельняшка из хлопкового футера с вышивкой-аппликацией',
-        img: 'img/catalogIMG/vest/DSC_4338.jpg',
+        img: 'img/vest/DSC_4338.jpg',
         price: 40,
     },
     {
@@ -29,7 +29,7 @@ const CATALOG = [
         ClassProd: 'cloth',
         SubClassProd: 'id_0',
         name: 'Тельняшка свободного силуэта с вышивкой-аппликацией «Волна»',
-        img: 'img/catalogIMG/vest/DSC_4403 1.jpg',
+        img: 'img/vest/DSC_4403 1.jpg',
         price: 734,
     },
 
@@ -38,7 +38,7 @@ const CATALOG = [
         ClassProd: 'cloth',
         SubClassProd: 'id_0',
         name: 'Тельняшка прямого силуэта с вышивкой-аппликацией «Чайка» и вышивкой «VLADIVOSTOK»',
-        img: 'img/catalogIMG/vest/DSC_4439.jpg',
+        img: 'img/vest/DSC_4439.jpg',
         price: 734,
     },
 
@@ -47,7 +47,7 @@ const CATALOG = [
         ClassProd: 'cloth',
         SubClassProd: 'id_0',
         name: 'Тельняшка умеренного объема с вышивкой-аппликацией «Приморский леопард»',
-        img: 'img/catalogIMG/vest/DSC_4463.jpg',
+        img: 'img/vest/DSC_4463.jpg',
         price: 734,
     },
 
@@ -56,7 +56,7 @@ const CATALOG = [
         ClassProd: 'cloth',
         SubClassProd: 'id_0',
         name: 'Тельняшка свободного силуэта с вышивкой-аппликацией «Приморский тигр»',
-        img: 'img/catalogIMG/vest/DSC_4531.jpg',
+        img: 'img/vest/DSC_4531.jpg',
         price: 734,
     },
 
@@ -65,7 +65,7 @@ const CATALOG = [
         ClassProd: 'cloth',
         SubClassProd: 'id_0',
         name: 'Тельняшка свободного силуэта с вышивкой-аппликацией «Приморский тигр» 2',
-        img: 'img/catalogIMG/vest/DSC_4566.jpg',
+        img: 'img/vest/DSC_4566.jpg',
         price: 734,
     },
     {
@@ -73,7 +73,7 @@ const CATALOG = [
         ClassProd: 'cloth',
         SubClassProd: 'id_0',
         name: 'Тельняшка умеренного объема с вышивкой-аппликацией «Ананас»',
-        img: 'img/catalogIMG/vest/DSC_4692.jpg',
+        img: 'img/vest/DSC_4692.jpg',
         price: 734,
     },
 
@@ -82,7 +82,7 @@ const CATALOG = [
         ClassProd: 'cloth',
         SubClassProd: 'id_0',
         name: 'Тельняшка умеренного объема с вышивкой-аппликацией «Морская капуста»',
-        img: 'img/catalogIMG/vest/DSC_4905.jpg',
+        img: 'img/vest/DSC_4905.jpg',
         price: 734,
     },
 
@@ -91,7 +91,7 @@ const CATALOG = [
         ClassProd: 'cloth',
         SubClassProd: 'id_0',
         name: 'Тельняшка свободного объема с росписью акрилом',
-        img: 'img/catalogIMG/vest/DSC_5002.jpg',
+        img: 'img/vest/DSC_5002.jpg',
         price: 734,
     },
 
@@ -100,7 +100,7 @@ const CATALOG = [
         ClassProd: 'cloth',
         SubClassProd: 'id_0',
         name: 'Тельняшки укороченная с надписью «VLADIVOSTOK» по низу с кулиской на резинке и тельняшка умеренного объема с вышивкой-аппликацией «Чайка»',
-        img: 'img/catalogIMG/vest/DSC_5141.jpg',
+        img: 'img/vest/DSC_5141.jpg',
         price: 734,
     },
 
@@ -109,7 +109,7 @@ const CATALOG = [
         ClassProd: 'cloth',
         SubClassProd: 'id_0',
         name: ' Тельняшка умеренного объема, укороченная, с завязками. По переду с надписью «Vladivostok»',
-        img: 'img/catalogIMG/vest/DSC_5245.jpg',
+        img: 'img/vest/DSC_5245.jpg',
         price: 734,
     },
 
@@ -118,7 +118,7 @@ const CATALOG = [
         ClassProd: 'cloth',
         SubClassProd: 'id_0',
         name: 'Тельняшка умеренного объема с росписью акрилом и вышивкой аппликацией «Рыбки»',
-        img: 'img/catalogIMG/vest/DSC_5344.jpg',
+        img: 'img/vest/DSC_5344.jpg',
         price: 734,
     },
 
@@ -127,7 +127,7 @@ const CATALOG = [
         ClassProd: 'cloth',
         SubClassProd: 'id_0',
         name: 'Тельняшка умеренного объема с вышивкой-аппликацией «Приморский Тигр» по спинке',
-        img: 'img/catalogIMG/vest/DSC_5395.jpg',
+        img: 'img/vest/DSC_5395.jpg',
         price: 734,
     },
 
@@ -136,7 +136,7 @@ const CATALOG = [
         ClassProd: 'cloth',
         SubClassProd: 'id_0',
         name: 'Тельняшка умеренного объема с росписью акрилом и надписью «VLADIVOSTOK»',
-        img: 'img/catalogIMG/vest/DSC_5461.jpg',
+        img: 'img/vest/DSC_5461.jpg',
         price: 734,
     },
 
@@ -145,7 +145,7 @@ const CATALOG = [
         ClassProd: 'cloth',
         SubClassProd: 'id_0',
         name: 'Тельняшка умеренного объема с вышивкой-аппликацией «Морская капуста»',
-        img: 'img/catalogIMG/vest/DSC_5485.jpg',
+        img: 'img/vest/DSC_5485.jpg',
         price: 734,
     },
 // teln___end
@@ -155,7 +155,7 @@ const CATALOG = [
         ClassProd: 'cloth',
         SubClassProd: 'id_2',
         name: 'Свитшот умеренного объема с вышивкой-аппликацией «Майский жук»',
-        img: 'img/catalogIMG/sweetshot/DSC_4416.jpg',
+        img: 'img/sweetshot/DSC_4416.jpg',
         price: 734,
     },
     {
@@ -163,7 +163,7 @@ const CATALOG = [
         ClassProd: 'cloth',
         SubClassProd: 'id_2',
         name: 'Свитшот умеренного объема с фактурными швами',
-        img: 'img/catalogIMG/sweetshot/DSC_4606.jpg',
+        img: 'img/sweetshot/DSC_4606.jpg',
         price: 734,
     },
     {
@@ -171,7 +171,7 @@ const CATALOG = [
         ClassProd: 'cloth',
         SubClassProd: 'id_2',
         name: 'Свитшот и шорты умеренного объема',
-        img: 'img/catalogIMG/sweetshot/DSC_4971.jpg',
+        img: 'img/sweetshot/DSC_4971.jpg',
         price: 734,
     },
     {
@@ -179,7 +179,7 @@ const CATALOG = [
         ClassProd: 'cloth',
         SubClassProd: 'id_2',
         name: ' Свитшот свободный с воротником цельновыкроенная стойка',
-        img: 'img/catalogIMG/sweetshot/DSC_5199.jpg',
+        img: 'img/sweetshot/DSC_5199.jpg',
         price: 734,
     },
     {
@@ -187,7 +187,7 @@ const CATALOG = [
         ClassProd: 'cloth',
         SubClassProd: 'id_2',
         name: ' Свитшот умеренного объема с вышивкой-аппликацией «Чайка»',
-        img: 'img/catalogIMG/sweetshot/DSC_5251.jpg',
+        img: 'img/sweetshot/DSC_5251.jpg',
         price: 734,
     },
     {
@@ -195,7 +195,7 @@ const CATALOG = [
         ClassProd: 'cloth',
         SubClassProd: 'id_2',
         name: ' Свитшот объемный, с имитацией бра',
-        img: 'img/catalogIMG/sweetshot/DSC_5260.jpg',
+        img: 'img/sweetshot/DSC_5260.jpg',
         price: 734,
     },
     {
@@ -203,7 +203,7 @@ const CATALOG = [
         ClassProd: 'cloth',
         SubClassProd: 'id_2',
         name: ' Свитшот умеренного объема с росписью акрилом имитирующие брызги волны и с фирменным термотрансфером «Птички»',
-        img: 'img/catalogIMG/sweetshot/DSC_5279.jpg',
+        img: 'img/sweetshot/DSC_5279.jpg',
         price: 734,
     },
     {
@@ -211,7 +211,7 @@ const CATALOG = [
         ClassProd: 'cloth',
         SubClassProd: 'id_2',
         name: 'Свитшот умеренного объема с вышивкой-аппликацией «Тигр»',
-        img: 'img/catalogIMG/sweetshot/DSC_5411.jpg',
+        img: 'img/sweetshot/DSC_5411.jpg',
         price: 734,
     },
     {
@@ -219,7 +219,7 @@ const CATALOG = [
         ClassProd: 'cloth',
         SubClassProd: 'id_2',
         name: 'Свитшот умеренного объема с росписью акрилом и вышивкой-аппликацией «Тигр»',
-        img: 'img/catalogIMG/sweetshot/DSC_8930.jpg',
+        img: 'img/sweetshot/DSC_8930.jpg',
         price: 734,
     },
     {
@@ -227,7 +227,7 @@ const CATALOG = [
         ClassProd: 'cloth',
         SubClassProd: 'id_2',
         name: 'Свитшот умеренного объема с вышивкой-аппликацией «Тигр»',
-        img: 'img/catalogIMG/sweetshot/DSC_9012.jpg',
+        img: 'img/sweetshot/DSC_9012.jpg',
         price: 734,
     },
     {
@@ -235,7 +235,7 @@ const CATALOG = [
         ClassProd: 'cloth',
         SubClassProd: 'id_2',
         name: 'Свитшот умеренного объема с вышивкой-аппликацией «Волна»',
-        img: 'img/catalogIMG/sweetshot/DSC_9090.jpg',
+        img: 'img/sweetshot/DSC_9090.jpg',
         price: 734,
     },
     {
@@ -243,7 +243,7 @@ const CATALOG = [
         ClassProd: 'cloth',
         SubClassProd: 'id_2',
         name: 'Свитшот умеренного объема с вышивкой-аппликацией «Волна»',
-        img: 'img/catalogIMG/sweetshot/DSC_9115.jpg',
+        img: 'img/sweetshot/DSC_9115.jpg',
         price: 734,
     },
     {
@@ -251,7 +251,7 @@ const CATALOG = [
         ClassProd: 'cloth',
         SubClassProd: 'id_2',
         name: 'Укороченный свитшот умеренного объема с вышивкой «Тигр»',
-        img: 'img/catalogIMG/sweetshot/DSC_9139.jpg',
+        img: 'img/sweetshot/DSC_9139.jpg',
         price: 734,
     },
     {
@@ -259,7 +259,7 @@ const CATALOG = [
         ClassProd: 'cloth',
         SubClassProd: 'id_2',
         name: ' Укороченный свитшот умеренного объема с широкой резинкой по низу и с вышивкой «Лицо»',
-        img: 'img/catalogIMG/sweetshot/DSC_9177.jpg',
+        img: 'img/sweetshot/DSC_9177.jpg',
         price: 734,
     },
     	/*	ФУТБОЛКИ	*/
@@ -269,7 +269,7 @@ const CATALOG = [
     ClassProd: 'cloth',
     SubClassProd: 'id_1',
     name: 'Футболка прямого силуэта с рубашечным рукавом',
-    img: 'img/catalogIMG/tshort/DSC_5186.jpg',
+    img: 'img/tshort/DSC_5186.jpg',
     price: 734,
 },
 
@@ -278,7 +278,7 @@ const CATALOG = [
     ClassProd: 'cloth',
     SubClassProd: 'id_1',
     name: 'Футболка прямого силуэта со спущенным плечом',
-    img: 'img/catalogIMG/tshort/DSC_5192.jpg',
+    img: 'img/tshort/DSC_5192.jpg',
     price: 734,
 },
 
@@ -381,7 +381,7 @@ const CATALOG = [
     ClassProd: 'cloth',
     SubClassProd: 'id_4',
     name: 'Брюки прямого силуэта с накладными карманами',
-    img: 'img/catalogIMG/pants/DSC_4392.jpg',
+    img: 'img/pants/DSC_4392.jpg',
     price: 734,
 },
 
@@ -390,7 +390,7 @@ const CATALOG = [
     ClassProd: 'cloth',
     SubClassProd: 'id_4',
     name: 'Брюки прямого силуэта с накладными карманами',
-    img: 'img/catalogIMG/pants/DSC_4413.jpg',
+    img: 'img/pants/DSC_4413.jpg',
     price: 734,
 },
 
@@ -399,7 +399,7 @@ const CATALOG = [
     ClassProd: 'cloth',
     SubClassProd: 'id_4',
     name: 'Шорты свободного силуэта с карманами в боковом шве',
-    img: 'img/catalogIMG/pants/DSC_4968.jpg',
+    img: 'img/pants/DSC_4968.jpg',
     price: 734,
 },
 
@@ -416,7 +416,7 @@ const CATALOG = [
     id: '50',
     ClassProd: 'accesors',
     name: 'Козырек ручной работы',
-    img: 'img/catalogIMG/hat/DSC_1028.jpg',
+    img: 'img/hat/DSC_1028.jpg',
     price: 734,
 },
 
@@ -424,7 +424,7 @@ const CATALOG = [
     id: '50',
     ClassProd: 'accesors',
     name: 'Козырек ручной работы',
-    img: 'img/catalogIMG/hat/DSC_1041.jpg',
+    img: 'img/hat/DSC_1041.jpg',
     price: 734,
 },
 
@@ -432,7 +432,7 @@ const CATALOG = [
     id: '50',
     ClassProd: 'accesors',
     name: 'Козырек ручной работы',
-    img: 'img/catalogIMG/hat/DSC_1074.jpg',
+    img: 'img/hat/DSC_1074.jpg',
     price: 734,
 },
 
@@ -440,7 +440,7 @@ const CATALOG = [
     id: '50',
     ClassProd: 'accesors',
     name: 'Козырек ручной работы',
-    img: 'img/catalogIMG/hat/DSC_1123.jpg',
+    img: 'img/hat/DSC_1123.jpg',
     price: 734,
 },
 
@@ -448,7 +448,7 @@ const CATALOG = [
     id: '50',
     ClassProd: 'accesors',
     name: 'Козырек ручной работы',
-    img: 'img/catalogIMG/hat/DSC_4332.jpg',
+    img: 'img/hat/DSC_4332.jpg',
     price: 734,
 },
 
@@ -456,7 +456,7 @@ const CATALOG = [
     id: '50',
     ClassProd: 'accesors',
     name: 'Козырек ручной работы',
-    img: 'img/catalogIMG/hat/DSC_4366.jpg',
+    img: 'img/hat/DSC_4366.jpg',
     price: 734,
 },
 
@@ -464,7 +464,7 @@ const CATALOG = [
     id: '50',
     ClassProd: 'accesors',
     name: 'Козырек ручной работы',
-    img: 'img/catalogIMG/hat/DSC_4370.jpg',
+    img: 'img/hat/DSC_4370.jpg',
     price: 734,
 },
 
@@ -472,7 +472,7 @@ const CATALOG = [
     id: '50',
     ClassProd: 'accesors',
     name: 'Козырек ручной работы',
-    img: 'img/catalogIMG/hat/DSC_4526.jpg',
+    img: 'img/hat/DSC_4526.jpg',
     price: 734,
 },
 
@@ -480,7 +480,7 @@ const CATALOG = [
     id: '50',
     ClassProd: 'accesors',
     name: 'Козырек ручной работы',
-    img: 'img/catalogIMG/hat/DSC_4989.jpg',
+    img: 'img/hat/DSC_4989.jpg',
     price: 734,
 },
 
@@ -488,7 +488,7 @@ const CATALOG = [
     id: '50',
     ClassProd: 'accesors',
     name: 'Козырек ручной работы',
-    img: 'img/catalogIMG/hat/DSC_5188.jpg',
+    img: 'img/hat/DSC_5188.jpg',
     price: 734,
 },
 
@@ -496,7 +496,7 @@ const CATALOG = [
     id: '50',
     ClassProd: 'accesors',
     name: 'Козырек ручной работы',
-    img: 'img/catalogIMG/hat/DSC_5277.jpg',
+    img: 'img/hat/DSC_5277.jpg',
     price: 734,
 },
 
@@ -504,7 +504,7 @@ const CATALOG = [
     id: '50',
     ClassProd: 'accesors',
     name: 'Козырек ручной работы',
-    img: 'img/catalogIMG/hat/DSC_5398.jpg',
+    img: 'img/hat/DSC_5398.jpg',
     price: 734,
 },
 
@@ -512,7 +512,7 @@ const CATALOG = [
     id: '50',
     ClassProd: 'accesors',
     name: 'Козырек ручной работы',
-    img: 'img/catalogIMG/hat/DSC_5429.jpg',
+    img: 'img/hat/DSC_5429.jpg',
     price: 734,
 },
 ];
