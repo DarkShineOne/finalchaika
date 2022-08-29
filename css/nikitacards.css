@@ -79,6 +79,7 @@
     bottom: 0;
     margin-bottom: 4.6vh;
     margin-left: 5vw;
+    text-decoration: none;
 }
 
 .knopka:active {
