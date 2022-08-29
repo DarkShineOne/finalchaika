@@ -1,6 +1,6 @@
 .pazzle {
     padding-bottom: 5vw;
-    padding-top: 5vw;
+    padding-top: 3vw;
     display: flex;
     justify-content: space-between;
     width: 80%;
@@ -36,7 +36,7 @@ a.imgcon2:hover{
     display: block;
     width: 100%;
     height: auto;
-    background-image: url(../img/svg/capusta.svg);
+    background-image: url(../img/svg/chaika.svg);
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -81,7 +81,7 @@ a.imgcon2:hover{
     display: block;
     width: 100%;
     height: auto;
-    background-image: url(../img/svg/chaika.svg);
+    background-image: url(../img/svg/capusta.svg);
     background-repeat: no-repeat;
     background-size: 100%;
 }

@@ -3,7 +3,7 @@
     position: sticky;
     top: 0;  
     max-width: 100%;
-    height: 4vw;
+    height: 6vw;
     margin-top: 2vw;
     display: flex;
     flex-wrap: wrap;
@@ -30,7 +30,7 @@
     font-family: 'Noto Sans';
     font-style: normal;
     font-weight: 300;
-    font-size: 1.5vw;
+    font-size: 1.25vw;
     line-height: 1.51vw;
     color: rgba(10, 63, 118, 1);
     text-decoration: none;
@@ -53,7 +53,6 @@ li {
 
 
 #banner{
-    padding-top: 4vw;
     width: 100%;
     height: 87%;
 }
