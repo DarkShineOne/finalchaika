@@ -10,8 +10,6 @@ class treebock {
             </botton>
             <button  class ="subclass___cloth" onclick = "filterSelection('cloth', 'id_2')">Свитшоты и худи
             </button>
-            <button class = "subclass___cloth" onclick = "filterSelection('cloth', 'id_3')">Бомберы
-            </button>
             <button  class ="subclass___cloth" onclick = "filterSelection('cloth', 'id_4')">Брюки и шорты
             </button>
             <button  class ="subclass___cloth" onclick = "filterSelection('cloth', 'id_5')">Юбки и платья
@@ -33,3 +31,7 @@ class treebock {
 
 const treePage = new treebock();
 treePage.render();
+
+
+            // <button class = "subclass___cloth" onclick = "filterSelection('cloth', 'id_3')">Бомберы
+            // </button>

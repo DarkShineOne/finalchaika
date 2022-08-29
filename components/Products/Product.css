@@ -28,21 +28,24 @@
 
 .products-element__img{
     width: 100%;
-    height: 445;
+    height: 23vw;
     object-fit: contain;
 }
 
 .products-element__name{
+    width: 60%;
+    text-align: left;
+    left: 15%;
     top: 20px;
     margin-bottom: auto;
-    left: 15%;
     position: relative;
     font-size: 1vw;
     font-family: 'Noto Sans';
 }
 .products-element__price{
     top: 30px;
-    margin-bottom: auto;
+    margin-bottom: 0;
+    text-align: left;
     left: 15%;
     position: relative;
     font-size: 1vw;
