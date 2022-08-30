@@ -408,7 +408,7 @@ const CATALOG = [
     ClassProd: 'cloth',
     SubClassProd: 'id_4',
     name: 'Лосины прилегающего силуэта с фирменным лого «Птичка»',
-    img: 'img/catalogIMG/pants/DSC_5080.jpg',
+    img: 'img/pants/DSC_5080.jpg',
     price: 734,
 },
 
